@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "photos-mapper"
+version = "0.0.1"
+description = "mapping out location data from photos metadata"
+authors = ["vinas <ep.edwinas@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+ipykernel = "*"
+tqdm = "*"
+pandas = "*"
+polars = "*"
+pyarrow = "*"
+pendulum = "*"
+plotly = "*"
+dash = "*"
+dash-extensions = "*"
+jupyter-dash = "*"
+nbformat = "*"
+
+exifread = "*"
+
+# google-auth = "*"
+# google-auth-oauthlib = "*"
+# google-auth-httplib2 = "*"
+# google-api-python-client = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
